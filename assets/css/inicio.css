@@ -1,0 +1,149 @@
+html {
+    scroll-behavior: smooth;
+    /*overflow-x: hidden;*/
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#home {
+    background: linear-gradient(to right, rgb(110, 115, 115), #363835);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.ajuste_altura {
+    width: 100%;
+}
+
+
+.ajustador {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.apresentacao {
+    max-width: 100%;
+    color: white;
+
+}
+
+.descricao {
+    grid-area: descricao;
+    font-size: 30px;
+}
+
+.meu_nome {
+    font-size: 50px;
+}
+
+.meu_nome::after {
+    content: '|';
+    margin-left: 3px;
+    opacity: 1;
+    animation: pisca .7s infinite;
+}
+
+@keyframes pisca {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
+
+.foto {
+    grid-area: foto;
+    align-items: center;
+    justify-content: center;
+}
+
+.foto2 {
+    max-width: 100%;
+}
+
+.links {
+
+    justify-content: center;
+    align-items: center;
+}
+
+.links ul {
+    display: flex;
+}
+
+.links li {
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.links a {
+    background-color: #698381;
+    display: flex;
+    border-radius: 40px;
+    padding: 8px;
+    text-decoration: none;
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    transition: ease-in-out 0.3s;
+}
+
+.links a:hover {
+    color: rgb(44, 202, 128);
+    transform: scale(1.06);
+}
+
+@media (max-width:1200px) {
+    .foto2 {
+        max-width: 85%;
+    }
+}
+
+@media (max-width:900px) {
+
+    .organizador {
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-areas:
+            "foto"
+            "descricao"
+    }
+
+    .foto {
+        padding: 5px 0;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .descricao {
+        font-size: 27px;
+        justify-content: center;
+        text-align: center;
+        line-height: 42px;
+
+    }
+
+    .meu_nome {
+        font-size: 48px;
+    }
+
+}

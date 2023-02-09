@@ -1,0 +1,210 @@
+#contato {
+    height: 95vh;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background: linear-gradient(to right, rgb(110, 115, 115), #363835);
+}
+
+
+.habilidades {
+    height: 95vh;
+    display: flex;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.habilidades-pd {
+    display: absolute;
+}
+
+.habilidades-pd h2 {
+    text-align: center;
+    padding-bottom: 70px;
+    font-size: 70px;
+    color: #FEFEFE;
+}
+
+.skills-descricao {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 70px;
+    grid-template-areas:
+        "skills"
+        "skill-descricao"
+}
+
+.conteiner-skills {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 37px;
+    max-width: 55%;
+    grid-area: skills;
+}
+
+.skill-box {
+    height: 120px;
+    width: 120px;
+    background-color: #526462;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: ease 0.3s;
+}
+
+.skill-box:hover {
+    background-color: #5a917e;
+    transform: scale(1.05);
+}
+
+.conteiner-descricao {
+    color: #FEFEFE;
+    font-size: 24px;
+    max-width: 50%;
+    min-height: 180px;
+    grid-area: skill-descricao;
+    display: flex;
+}
+
+.texto-descricao {
+    display: absolute;
+}
+
+/*Footer*/
+
+.footer {
+    background-color: #526462;
+    border-top: solid 1px rgba(255, 255, 255, 0.452);
+}
+
+.footer-conteiner {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.contato-creditos {
+    color: #FEFEFE;
+    font-size: 20px;
+    padding: 8px 0;
+}
+
+
+
+.icons {
+    display: flex;
+    gap: 25px;
+}
+
+
+.links1,
+.links2 {
+    height: 48px;
+    width: 48px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.linksf:hover {
+    transform: rotate(-360deg);
+}
+
+.links1 {
+    background-image: url(../img/github2.svg);
+}
+
+.links2 {
+    background-image: url(../img/linkedin2.svg);
+}
+
+.transparente {
+    transition: ease-in-out 0.3s;
+}
+
+.transparente:hover {
+    opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1200px) {
+
+    .conteiner-descricao {
+        height: 260px;
+    }
+
+    .habilidades {
+        display: flex;
+        justify-content: center;
+    }
+
+    .skills-descricao {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        gap: 50px;
+        padding-bottom: 70px;
+        align-items: center;
+    }
+
+    .skills-descricao p {
+        text-align: center;
+    }
+
+    .skill-box .icones-habilidades {
+        transition: ease-in-out 0.3s;
+    }
+
+    .skill-box:hover .icones-habilidades {
+        opacity: 0;
+    }
+
+}
+
+@media (max-width:800px) {
+    .conteiner-skills {
+        flex-flow: row column;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 35px;
+        max-width: 50%;
+
+    }
+
+}
+
+@media (max-width:400px) {
+    .conteiner-skills {
+        flex-flow: row column;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        max-width: 80%;
+
+    }
+}
