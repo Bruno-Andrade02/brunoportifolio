@@ -241,12 +241,12 @@ body {
 
 @media (max-width:600px) {
     #contato {
-        height: 93vh;
+        height: 90vh;
     }
 
     .habilidades-pd h2 {
-
-        font-size: 50px;
+        padding-top: 30%;
+        font-size: 45px;
     }
 
 
@@ -270,6 +270,6 @@ body {
 
     .icons {
         display: flex;
-        gap: 8px;
+        gap: 1px;
     }
 }
