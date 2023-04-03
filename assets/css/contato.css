@@ -210,7 +210,7 @@
         justify-content: center;
         flex-wrap: wrap;
         gap: 10px;
-        max-width: 70%;
+        max-width: 80%;
 
     }
 
@@ -226,7 +226,7 @@
 
     .contato-creditos {
         color: #FEFEFE;
-        font-size: 16px;
+        font-size: 13px;
         padding: 0;
     }
 
@@ -234,6 +234,6 @@
 
     .icons {
         display: flex;
-        gap: 15px;
+        gap: 13px;
     }
 }
