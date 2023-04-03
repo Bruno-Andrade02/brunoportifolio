@@ -56,7 +56,7 @@
 .sobre_descricao p {
     text-align: justify;
     text-indent: 1.5rem;
-    font-size: 30px;
+    font-size: 34px;
     color: white;
     word-break: break-word;
 }
@@ -101,7 +101,7 @@
     .sobre_descricao p {
         font-size: 30px;
 
-        text-indent: 0;
+        text-indent: 3rem;
 
     }
 
@@ -127,7 +127,7 @@
     }
 
     .sobre_descricao p {
-        text-indent: 10px;
+        text-indent: 1.5rem;
         font-size: 22px;
         max-width: 500px;
         color: white;
