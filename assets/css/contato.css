@@ -241,11 +241,11 @@ body {
 
 @media (max-width:600px) {
     #contato {
-        height: 90vh;
+        height: 87vh;
     }
 
     .habilidades-pd h2 {
-        padding-top: 30%;
+        padding-top: 15%;
         font-size: 45px;
     }
 
