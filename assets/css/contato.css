@@ -241,11 +241,11 @@ body {
 
 @media (max-width:600px) {
     #contato {
-        height: 87vh;
+        height: 85vh;
     }
 
     .habilidades-pd h2 {
-        padding-top: 15%;
+        padding-top: 30%;
         font-size: 45px;
     }
 
@@ -254,13 +254,13 @@ body {
         flex-flow: row column;
         justify-content: center;
         flex-wrap: wrap;
-        gap: 10px;
-        max-width: 70%;
+        gap: 8px;
+        max-width: 65%;
 
     }
 
     .footer-conteiner {
-        max-width: 700px;
+        max-width: 600px;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
