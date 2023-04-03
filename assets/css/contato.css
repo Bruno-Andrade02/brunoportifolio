@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 #contato {
     height: 95vh;
     display: block;
@@ -67,6 +71,7 @@
 .skill-box:hover {
     background-color: #5a917e;
     transform: scale(1.05);
+
 }
 
 .conteiner-descricao {
@@ -187,13 +192,13 @@
 
 }
 
-@media (max-width:800px) {
+@media (max-width:900px) {
     .conteiner-skills {
         flex-flow: row column;
         justify-content: center;
         flex-wrap: wrap;
         gap: 35px;
-        max-width: 50%;
+        max-width: 70%;
 
     }
 
@@ -204,13 +209,53 @@
 
 }
 
-@media (max-width:500px) {
+.skill1 {
+    background-image: url(../img/html5.svg);
+
+}
+
+.skill2 {
+    background-image: url(../img/css.svg);
+
+}
+
+.skill3 {
+    background-image: url(../img/js.svg);
+
+}
+
+.skill4 {
+    background-image: url(../img/react.svg);
+
+}
+
+.skill5 {
+    background-image: url(../img/github.svg);
+
+}
+
+.skill6 {
+    background-image: url(../img/python.svg);
+
+}
+
+@media (max-width:600px) {
+    #contato {
+        height: 93vh;
+    }
+
+    .habilidades-pd h2 {
+
+        font-size: 50px;
+    }
+
+
     .conteiner-skills {
         flex-flow: row column;
         justify-content: center;
         flex-wrap: wrap;
         gap: 10px;
-        max-width: 80%;
+        max-width: 70%;
 
     }
 
@@ -223,17 +268,8 @@
     }
 
 
-
-    .contato-creditos {
-        color: #FEFEFE;
-        font-size: 13px;
-        padding: 0;
-    }
-
-
-
     .icons {
         display: flex;
-        gap: 13px;
+        gap: 8px;
     }
 }
