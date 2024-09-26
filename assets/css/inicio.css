@@ -112,7 +112,7 @@ html {
 
 @media (max-width:1200px) {
     .foto2 {
-        max-width: 85%;
+        max-width: 100%;
     }
 }
 
@@ -147,3 +147,5 @@ html {
     }
 
 }
+
+@media (max-width:900px) {}
