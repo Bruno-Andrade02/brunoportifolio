@@ -3,7 +3,7 @@ body {
 }
 
 #contato {
-    height: 95vh;
+    height: 90vh;
     display: block;
     align-items: center;
     justify-content: center;
@@ -13,7 +13,7 @@ body {
 
 
 .habilidades {
-    height: 95vh;
+    height: 90vh;
     display: flex;
     max-width: 100%;
     align-items: center;
@@ -28,10 +28,10 @@ body {
 
 .habilidades-pd h2 {
     text-align: center;
-    padding-bottom: 70px;
-    font-size: 70px;
+    padding-bottom: 60px;
+    font-size: 55px;
     color: #FEFEFE;
-    padding-top: 5%;
+    padding-top: 8%;
 }
 
 .skills-descricao {
@@ -48,9 +48,9 @@ body {
 .conteiner-skills {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: row;
     gap: 37px;
-    max-width: 55%;
+    max-width:70%;
     grid-area: skills;
 }
 
@@ -76,7 +76,7 @@ body {
 
 .conteiner-descricao {
     color: #FEFEFE;
-    font-size: 24px;
+    font-size: 21px;
     max-width: 50%;
     min-height: 180px;
     grid-area: skill-descricao;

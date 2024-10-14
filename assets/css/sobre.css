@@ -11,7 +11,8 @@
 
     display: flex;
     max-width: 100%;
-    margin: 0 auto;
+    padding-top: 14%;
+    margin: 0 auto;gap: 2%;
     align-items: center;
 
 }
@@ -33,7 +34,7 @@
 .portal {
     width: 320px;
     position: relative;
-    bottom: 7rem;
+    bottom: 6rem;
 }
 
 .sobre_descricao {
@@ -48,17 +49,17 @@
     text-align: center;
     justify-content: center;
     font-family: inherit;
-    font-size: 55px;
+    font-size: 44px;
     color: white;
 
 }
 
 .sobre_descricao p {
     text-align: justify;
-    text-indent: 1.5rem;
-    font-size: 34px;
+    text-indent: 1.2rem;
+    font-size: 22px;
     color: white;
-    word-break: break-word;
+    word-break: break-all;
 }
 
 
@@ -109,7 +110,7 @@
 }
 
 
-@media (max-width:850px) {
+@media (max-width:900px) {
     #sobre {
         height: 100vh;
 
